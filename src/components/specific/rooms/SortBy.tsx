@@ -6,11 +6,13 @@ const SortBy = ({ onSortChange }) => {
     <div>
       <select
         onChange={(e) => onSortChange(e.target.value)}
-        className='border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500'
+        className='border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent'
       >
         <option value=''>Sort By</option>
-        <option value='priceLow'>Price: Low to High</option>
-        <option value='priceHigh'>Price: High to Low</option>
+        <option value='priceLow'>Rent: Low to High</option>
+        <option value='priceHigh'>Rent: High to Low</option>
+        <option value='newest'>Newest First</option>
+        <option value='oldest'>Oldest First</option>
       </select>
     </div>
   )
