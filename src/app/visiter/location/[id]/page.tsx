@@ -5,7 +5,7 @@ import FilterSidebar from '@/components/specific/rooms/FilterSidebar'
 import SearchBar from '@/components/specific/rooms/SearchBar'
 import SortBy from '@/components/specific/rooms/SortBy'
 import RoomCard from '@/components/specific/rooms/RoomCard'
-import { locationService } from '@/lib/services/location/locationService'
+
 import Pagination from '@/components/reusable/pagination/pagination'
 import { roomService } from '@/lib/services/room/roomService'
 export default function RoomsPage() {
